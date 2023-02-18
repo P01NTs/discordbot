@@ -38,7 +38,7 @@ for (const file of commandFiles) {
   client.commands.set(command.data.name, command);
   commands.push(command.data.toJSON());
 }
-
+//////////////////* */////////////////////////
 client.on("ready", () => {
   console.log("Bot is ready and running!");
   const guild_ids = client.guilds.cache.map((guild) => guild.id);
